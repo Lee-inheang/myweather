@@ -1,0 +1,236 @@
+@import url('reset.css');
+@import url('all.min.css');
+@import url('notosanc.css');
+@import url('weather-icons.css');
+@import url('weather-icons-wind.css');
+@import url('slick.css');
+@import url('slick-theme.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+*{box-sizing: border-box;}
+
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+
+h1{
+    color:#000;
+    font-size:1.6em;
+    font-weight:700;
+}
+
+.wrapper{
+    margin: 0;
+    font-size: 1em;
+    font-weight: 400;
+    font-family:'NotoSansKr',sans-serif ;   
+    color: #000;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: repeat;
+    overflow: auto;
+    position: relative;
+}
+
+.container{
+    max-width: 100%;
+    position: relative;
+    /* padding-left: 1em; */
+}
+
+.city{
+    color: #fff;
+    font-size: 2em;
+    margin:50px 0 10px 30px;
+}
+
+.temp{
+    font-size: 10em;
+    font-weight:500;
+    margin-left: 30px;
+    letter-spacing: -10px;
+    background:-webkit-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+}
+.small{
+    font-size: 0.7em;
+    vertical-align: top;
+    padding-left: 0.1em;
+
+}
+
+.descript{
+    font-size: 1.5em;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-90deg);
+    right: -30px;
+    top: 130px;
+}
+
+.detail{
+    margin-top: 295px;
+  
+}
+
+.detail-top{
+width: 100%;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-color: rgba(255, 255, 255, 0.932);
+height: 100%;
+text-align: center;
+padding-top: 45px;
+position: relative;
+
+}
+
+.detail-top::after{
+    position: absolute;
+    top: 14px;
+    left: 42%;
+    content:"";
+    display:block;
+    width:50px;
+    height:5px;
+    border-radius:2.5px;
+    background:#ddd;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.detail-body {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.detail-body h1{
+   
+    padding-top:0.3em;
+    letter-spacing:0em;
+    font-variant: small-caps;
+    margin-bottom:0.7em;
+}
+.today-box{
+    text-align: left;
+    display:flex;
+    padding-bottom:20px;
+    border-bottom:1px dashed #787878;
+}
+
+.today-box ul{
+    color:#787878;
+}
+.today-box ul:first-child{
+    width:40%;
+   
+}
+.today-box ul:last-child{
+    width:60%;
+}
+.today-box li{
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.today-box label{
+    margin-right:10px;
+    font-weight:700;  
+    letter-spacing:-2px;
+}
+.today-box i{
+    margin-right:10px;
+}
+
+/* 5 day */
+
+.five-day{
+    margin-top: 30px;
+
+}
+.three-times{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.8em;
+}
+
+.five-date{
+    font-weight: 700;
+margin-bottom: 5px;
+    color: #000;
+}
+.five-icon{
+text-align: center;
+}
+.five-icon>img{
+width: 5em;
+margin: 0.5em auto;
+}
+
+.five-temp{
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.five-descript{
+    color: #787878;
+    margin-top: 3em;
+}
+
+
+/*search*/
+.searchbox{
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    padding: 8px 10px 8px 30px;
+    background-color: rgba(255,255,255,0.7);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: all 0.3s;
+    opacity: 0;
+    width: 0px;
+    /* opacity와 width 값을 0으로 주어 숨긴 후,
+    아이콘 클릭하면 나타나게 할 것이다.
+    */
+}
+
+.searchbox form{
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 5px 20px;
+    width: 100%;
+
+}
+.searchbox input{
+    width: 100%;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+
+}
+
+a.btn{
+    position: absolute;
+    z-index: 100;
+    right: 25px;
+    top: 40px;
+
+}
+.btn i{
+    font-size: 1.5em;
+    color: #fff;
+    transition: 0.3s;
+}

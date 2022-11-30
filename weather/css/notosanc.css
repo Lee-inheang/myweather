@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'NotoSansKr';
+    src: url('../font/NotoSansKr-Thin-Alphabetic.otf') format('opentype'),
+         url('../font/NotoSansKr-Thin-Alphabetic.woff2') format('woff2'),
+         url('../font/NotoSansKr-Thin-Alphabetic.woff') format('woff');
+     
+
+         src: url('../font/NotoSansKr-Thin-Alphabetic.eot');
+         font-weight: 100;
+         font-style: normal;
+         font-display: swap;
+
+    
+}
+
+@font-face {
+    font-family: 'NotoSansKr';
+    src: url('../font/NotoSansKr-Light-Alphabetic.otf') format('opentype'),
+         url('../font/NotoSansKr-Light-Alphabetic.woff2') format('woff2'),
+         url('../font/NotoSansKr-Light-Alphabetic.woff') format('woff');
+
+
+         src: url('../font/NotoSansKr-Light-Alphabetic.eot');
+         font-weight: 300;
+         font-style: normal;
+         font-display: swap;
+
+    
+}
+
+@font-face {
+    font-family: 'NotoSansKr';
+    src: url('../font/NotoSansKr-Regular-Alphabetic.otf') format('opentype'),
+         url('../font/NotoSansKr-Regular-Alphabetic.woff2') format('woff2'),
+         url('../font/NotoSansKr-Regular-Alphabetic.woff') format('woff');
+   
+
+         src: url('../font/NotoSansKr-Regular-Alphabetic.eot');
+         font-weight: 400;
+         font-style: normal;
+         font-display: swap;
+
+    
+}
+
+@font-face {
+    font-family: 'NotoSansKr';
+    src: url('../font/NotoSansKr-Medium-Alphabetic.otf') format('opentype'),
+         url('../font/NotoSansKr-Medium-Alphabetic.woff2') format('woff2'),
+         url('../font/NotoSansKr-Medium-Alphabetic.woff') format('woff');
+
+
+         src: url('../font/NotoSansKr-Medium-Alphabetic.eot');
+         font-weight: 500;
+         font-style: normal;
+         font-display: swap;
+
+    
+}
+
+@font-face {
+    font-family: 'NotoSansKr';
+    src: 
+         url('../font/NotoSansKr-bold-Alphabetic.otf') format('opentype'),
+         url('../font/NotoSansKr-bold-Alphabetic.woff2') format('woff2'),
+         url('../font/NotoSansKr-bold-Alphabetic.woff') format('woff');
+   
+
+         src: url('../font/NotoSansKr-bold-Alphabetic.eot');
+         font-weight: 700;
+         font-style: normal;
+         font-display: swap;
+
+
+}
+
+@font-face {
+    font-family: 'NotoSansKr';
+    src: url('../font/NotoSansKR-Black-Alphabetic.otf') format('opentype'),
+    url('../font/NotoSansKr-black-Alphabetic.woff2') format('woff2'),
+    url('../font/NotoSansKr-black-Alphabetic.woff') format('woff');
+ 
+
+         src: url('../font/NotoSansKr-black-Alphabetic.eot');
+         font-weight: 900;
+         font-style: normal;
+         font-display: swap;
+
+
+}

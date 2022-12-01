@@ -48,7 +48,7 @@ h1{
 }
 
 .temp{
-    font-size: 10em;
+    font-size: 8.5em;
     font-weight:500;
     margin-left: 30px;
     letter-spacing: -10px;
@@ -69,9 +69,19 @@ h1{
     color: #fff;
     position: absolute;
     transform: rotate(-90deg);
-    right: -30px;
-    top: 130px;
+    right: -130px;
+    top: 230px;
+
 }
+
+#descript{
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+
 
 .detail{
     margin-top: 295px;
@@ -107,6 +117,12 @@ position: relative;
 
 .text-center{
     text-align: center;
+}
+
+.feels_like{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .detail-body {
@@ -151,10 +167,17 @@ position: relative;
     margin-right:10px;
 }
 
+.detail-foot{
+    width: 100%;
+}
+
+
 /* 5 day */
 
 .five-day{
     margin-top: 30px;
+    color: #000;
+    letter-spacing: -1px;
 
 }
 .three-times{
@@ -162,6 +185,7 @@ position: relative;
     padding-left: 5px;
     padding-right: 5px;
     font-size: 0.8em;
+    
 }
 
 .five-date{
@@ -206,7 +230,7 @@ margin: 0.5em auto;
     */
 }
 
-.searchbox form{
+.searchbox .form{
     border: 1px solid #999;
     border-radius: 20px;
     padding: 5px 20px;
@@ -220,6 +244,11 @@ margin: 0.5em auto;
     border: none;
     background-color: transparent;
 
+}
+
+.searchbox input:focus{
+    border: none;
+    outline: none;
 }
 
 a.btn{

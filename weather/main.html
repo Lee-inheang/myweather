@@ -25,7 +25,7 @@
     
             <!--온도-->
         <h1 class="temp">
-            <span id="temp">25</span> <span class="small">°</span>
+            <span id="temp">25</span><span class="small">°</span>
     
         </h1>
         <div class="descript">
@@ -36,68 +36,49 @@
             <div class="detail-top">
             <div class="detail-body">
                 <h1 class="text-center">Weather Today</h1>
+                <p class="feels_like" >체감온도: <span id="feels_like"></span></p>
            <div class="today-box">
             <ul>
-                <li><label><i class="fa-solid fa-arrow-down"></i>최저</label>0도</li>
-                <li><label><i class="fa-solid fa-arrow-up"></i>최고</label>13도</li>
-                <li><label> <i class="wi wi-humidity"></i>습도</label>15%</li>
+                <li><label><i class="fa-solid fa-arrow-down"></i>최저</label> <span id="temp-min">0</span>°</li>
+                <li><label><i class="fa-solid fa-arrow-up"></i>최고</label><span id="temp-max">50</span>°</li>
+                <li><label> <i class="wi wi-humidity"></i>습도</label><span id="humidity">1</span>%</li>
     
             </ul>
             <ul>
-                <li><label><i class="wi wi-sunrise"></i>해뜨는 시각</label>AM 05:30</li>
-                <li><label><i class="wi wi-sunset"></i>해지는 시각</label>PM 17:00</li>
-                <li><label><i class="wi wi-day-windy"></i>풍속</label>8m/s</li>
+                <li><label><i class="wi wi-sunrise"></i>해뜨는 시각</label> <span id="sunrise"></span></li>
+                <li><label><i class="wi wi-sunset"></i>해지는 시각</label> <span id="sunset"></span></li>
+                <li><label><i class="wi wi-day-windy"></i>풍속</label><span id="windy">1</span>m/s</li>
             </ul>
            </div>
-
+        </div>
+        <div class="detail-foot">
            <!--5day-->
            <div class="five-day">
 
             <!--roof-->
             <div class="three-times">
-                <div class="five-date">15일 00시</div>
+                <div class="five-date">15일(수) 00시</div>
                 <div class="five-icon">
                     <img src="images/icon/01d.png" alt="d01" class="img-fluid">
                 </div>
                 <p class="five-temp">25도</p>
                 <p class="five-descript">Sunny day</p>
             </div>
-            <div class="three-times">2</div>
-            <div class="three-times">3</div>
-            <div class="three-times">4</div>
-            <div class="three-times">5</div>
-            <div class="three-times">6</div>
-            <div class="three-times">7</div>
-            <div class="three-times">8</div>
-            <div class="three-times">9</div>
-            <div class="three-times">10</div>
-            <div class="three-times">11</div>
-            <div class="three-times">12</div>
-            <div class="three-times">13</div>
-            <div class="three-times">14</div>
-            <div class="three-times">15</div>
-            <div class="three-times">16</div>
-            <div class="three-times">17</div>
-            <div class="three-times">18</div>
-            <div class="three-times">19</div>
-            <div class="three-times">20</div>
-
-
-
+        </div>
             
            </div>
         <!--/roop-->
 
-            </div>
+          
         </div>
     </div>
     </div>
 </div>
 
 <div class="searchbox">
-    <form>
+    <div class="form">
         <input type="search" name="search" class="search" placeholder="도시를 검색하세요">
-    </form>
+    </div>
 </div>
 <a href="#" class="btn"><i class="fa-solid fa-magnifying-glass"></i></a>
 
